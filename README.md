@@ -9,8 +9,10 @@ The basic idea of the game is modeled after the famous arcade game "Space Invade
 ## Game Elements
 The game has a number of elements that interact with one another on collision
 ### 1. User Ship
+![ship](https://user-images.githubusercontent.com/54511402/167516018-eea1c70b-c6c8-4bf8-b4b3-03d34f97e297.png)
 The user ship can be moved left and right by pressing and holding down the left and right arrow keys respectively. This can be done to catch powerups and avoid alien bullets. The ship can fire bullets from it's current position by using the spacebar. These bullets move up the screen and eliminate aliens on collision with alien elements. The ship loses a life if it collides with an alien or an alien bullet.
 ### 2. Aliens
+![alien](https://user-images.githubusercontent.com/54511402/167516065-8509ab59-777a-4801-8a5b-4939eb9c5e08.png)
 Aliens come at the beginning of each level in fleets that always move in unison. The fleet always moves to the left or right, and when any alien collides with either side of the screen, the fleet changes direction from left to right (or vice-versa) and moves a set interval down the screen. If any alien either collides with the ship or reaches the bottom of the screen, the player loses a life. Aliens can also fire bullets, which take a ship life on collision with the ship.
 ### 3. Bullets
 - ***Ship bullets***  
@@ -41,6 +43,7 @@ Aliens come at the beginning of each level in fleets that always move in unison.
     - **Double Points**  
     ![double_points](https://user-images.githubusercontent.com/54511402/167512892-b032a0b4-edd3-4ab2-9310-2fcb76ee6a67.png)  
     Causes the ship to earn double points per alien eliminated.  
+
 
 
 - ***Powerup panel***
