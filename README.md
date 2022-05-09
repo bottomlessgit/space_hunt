@@ -30,6 +30,24 @@ Aliens come at the beginning of each level in fleets that always move in unison.
     - **Unlimited Bullets**  
     ![unlimited_bullets](https://user-images.githubusercontent.com/54511402/167512895-fa18fae5-5da8-4f3e-b8ad-d2bea9e3d263.png)  
     The unlimited bullets powerup eliminates the limit on bullets allowed on screen so that the ship can fire an unlimited number of bullets regardless of the number of ship bullets already on screen.  
+    - **Superspeed Bullets**  
+    ![superspeed_bullets](https://user-images.githubusercontent.com/54511402/167512893-e494a305-a857-4aa5-a468-915f1de34978.png)  
+    The superspeed bullets powerup makes ship bullets go up the screen super fast.  
+    - **Superspeed Ship**  
+    ![superspeed_ship](https://user-images.githubusercontent.com/54511402/167512894-c4f8360c-4a24-4a68-a265-4304ef7dd30d.png)  
+    The superspeed bullets powerup makes the ship move around the screen super fast.  
+    - **Widened Bullets**  
+    ![widened_bullets](https://user-images.githubusercontent.com/54511402/167512896-b2e7008f-c748-4702-8e4c-a142982d84fd.png)  
+    Allows the ship to shoot very wide bullets that can collide with and eliminate multiple aliens at a time.  
+    - **Destroyo Bullet**  
+    ![destroyo_bullet](https://user-images.githubusercontent.com/54511402/167512891-791a4b9f-43ae-401a-97b9-0e369c61d711.png)  
+    Allows the ship to shoot bullets that can collide with an unlimited number of aliens and eliminate them without itself being eliminated.  
+    - **Alien Bullet Shields**  
+    ![alien_bullet_shields](https://user-images.githubusercontent.com/54511402/167512889-6b70548d-652a-412c-829d-9d98d5ac6d01.png)  
+    Makes the ship immune to losing lives from collisions with alien bullets.  
+    - **Double Points**  
+    ![double_points](https://user-images.githubusercontent.com/54511402/167512892-b032a0b4-edd3-4ab2-9310-2fcb76ee6a67.png)  
+    Causes the ship to earn double points per alien eliminated.  
 
 
 - ***Powerup panel***
