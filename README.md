@@ -8,16 +8,16 @@ The basic idea of the game is modeled after the famous arcade game "Space Invade
 
 ## Game Elements
 The game has a number of elements that interact with one another on collision
-1. User Ship
-2. Aliens
-3. Bullets
+### 1. User Ship
+### 2. Aliens
+### 3. Bullets
   - Ship bullets
   - Alien Bullets
-4. Powerups
+### 4. Powerups
   - Powerups
   - Powerup panel
-5. Scoreboard
+### 5. Scoreboard
   a. Score
   b. Highscore
   c. Level
-6. Lives panel
+### 6. Lives panel
