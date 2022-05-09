@@ -24,6 +24,8 @@ def run_game():
     stats = GameStats(settings)
     # Create game screen
     screen = pygame.display.set_mode(settings.screen_dimensions)
+    # Set caption to game title
+    pygame.display.set_caption("Space Hunt")
     # Create controlable player ship
     ship = Ship(settings, screen)
     # Create player scoreboard
