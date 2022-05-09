@@ -13,13 +13,13 @@ The user ship can be moved left and right by pressing and holding down the left 
 ### 2. Aliens
 Aliens come at the beginning of each level in fleets that always move in unison. The fleet always moves to the left or right, and when any alien collides with either side of the screen, the fleet changes direction from left to right (or vice-versa) and moves a set interval down the screen. If any alien either collides with the ship or reaches the bottom of the screen, the player loses a life. Aliens can also fire bullets, which take a ship life on collision with the ship.
 ### 3. Bullets
-- Ship bullets
-  Ship bullets are fired by the ship using the spacebar, and eliminate an alien and themself on collision with the alien. The amount of ship bullets that can exist on screen is limited unless the unlimited bullet powerup is in effect.
-- Alien Bullets
-  Aliens shoot bullets at random intervals of time that can take a ship life on collision with the ship. A random group of aliens of random number (limited by a game setting) are chosen to sometimes shoot bullets at set intervals of time.
+- Ship bullets  
+  Ship bullets are fired by the ship using the spacebar, and eliminate an alien and themself on collision with the alien. The amount of ship bullets that can exist on screen is limited unless the unlimited bullet powerup is in effect.  
+- Alien Bullets  
+  Aliens shoot bullets at random intervals of time that can take a ship life on collision with the ship. A random group of aliens of random number (limited by a game setting) are chosen to sometimes shoot bullets at set intervals of time.  
 ### 4. Powerups
-- Powerups
-  Powerups appear randomly on screen and fall down the screen, dissapearing off the bottom of the screen. On collision with the user ship they activate effects that give the user a boost.
+- Powerups  
+  Powerups appear randomly on screen and fall down the screen, dissapearing off the bottom of the screen. On collision with the user ship they activate effects that give the user a boost.  
 ![alien_bullet_shields](https://user-images.githubusercontent.com/54511402/167512889-6b70548d-652a-412c-829d-9d98d5ac6d01.png)
 ![destroyo_bullet](https://user-images.githubusercontent.com/54511402/167512891-791a4b9f-43ae-401a-97b9-0e369c61d711.png)
 ![double_points](https://user-images.githubusercontent.com/54511402/167512892-b032a0b4-edd3-4ab2-9310-2fcb76ee6a67.png)
