@@ -20,13 +20,6 @@ Aliens come at the beginning of each level in fleets that always move in unison.
 ### 4. Powerups
 - ***Powerups***  
   Powerups appear randomly on screen and fall down the screen, dissapearing off the bottom of the screen. On collision with the user ship they activate effects that give the user a boost.  
-![alien_bullet_shields](https://user-images.githubusercontent.com/54511402/167512889-6b70548d-652a-412c-829d-9d98d5ac6d01.png)
-![destroyo_bullet](https://user-images.githubusercontent.com/54511402/167512891-791a4b9f-43ae-401a-97b9-0e369c61d711.png)
-![double_points](https://user-images.githubusercontent.com/54511402/167512892-b032a0b4-edd3-4ab2-9310-2fcb76ee6a67.png)
-![superspeed_bullets](https://user-images.githubusercontent.com/54511402/167512893-e494a305-a857-4aa5-a468-915f1de34978.png)
-![superspeed_ship](https://user-images.githubusercontent.com/54511402/167512894-c4f8360c-4a24-4a68-a265-4304ef7dd30d.png)
-![widened_bullets](https://user-images.githubusercontent.com/54511402/167512896-b2e7008f-c748-4702-8e4c-a142982d84fd.png)
-
     - **Unlimited Bullets**  
     ![unlimited_bullets](https://user-images.githubusercontent.com/54511402/167512895-fa18fae5-5da8-4f3e-b8ad-d2bea9e3d263.png)  
     The unlimited bullets powerup eliminates the limit on bullets allowed on screen so that the ship can fire an unlimited number of bullets regardless of the number of ship bullets already on screen.  
@@ -40,7 +33,7 @@ Aliens come at the beginning of each level in fleets that always move in unison.
     ![widened_bullets](https://user-images.githubusercontent.com/54511402/167512896-b2e7008f-c748-4702-8e4c-a142982d84fd.png)  
     Allows the ship to shoot very wide bullets that can collide with and eliminate multiple aliens at a time.  
     - **Destroyo Bullet**  
-    ![destroyo_bullet](https://user-images.githubusercontent.com/54511402/167512891-791a4b9f-43ae-401a-97b9-0e369c61d711.png)  
+    ![destroyo_bullet](https://user-images.githubusercontent.com/54511402/167515770-549b1083-1f60-4601-8823-99b48baf45dd.png)  
     Allows the ship to shoot bullets that can collide with an unlimited number of aliens and eliminate them without itself being eliminated.  
     - **Alien Bullet Shields**  
     ![alien_bullet_shields](https://user-images.githubusercontent.com/54511402/167512889-6b70548d-652a-412c-829d-9d98d5ac6d01.png)  
