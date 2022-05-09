@@ -27,9 +27,9 @@ Aliens come at the beginning of each level in fleets that always move in unison.
 ![superspeed_ship](https://user-images.githubusercontent.com/54511402/167512894-c4f8360c-4a24-4a68-a265-4304ef7dd30d.png)
 ![widened_bullets](https://user-images.githubusercontent.com/54511402/167512896-b2e7008f-c748-4702-8e4c-a142982d84fd.png)
 
-    - **Unlimited Bullets**
-    ![unlimited_bullets](https://user-images.githubusercontent.com/54511402/167512895-fa18fae5-5da8-4f3e-b8ad-d2bea9e3d263.png)
-    The unlimited bullets powerup eliminates the limit on bullets allowed on screen so that the ship can fire an unlimited number of bullets regardless of the number of ship bullets already on screen.
+    - **Unlimited Bullets**  
+    ![unlimited_bullets](https://user-images.githubusercontent.com/54511402/167512895-fa18fae5-5da8-4f3e-b8ad-d2bea9e3d263.png)  
+    The unlimited bullets powerup eliminates the limit on bullets allowed on screen so that the ship can fire an unlimited number of bullets regardless of the number of ship bullets already on screen.  
 
 
 - Powerup panel
