@@ -2,6 +2,9 @@
 A Shoot-em-up Game run with the Pygame module
 
 
+## How To Run
+
+
 ## Gameplay
 The basic idea of the game is modeled after the famous arcade game "Space Invaders", developed by Tomohiro Nishikado. The player controls a ship that moves and shoots bullets to defeat descending fleet of aliens and prevent them from reaching the ship or the bottom of the screen, gaining points for each alien defeated. It can also collide with powerups that fall down the screen and give temporary advantageous abilities to the user ship. The game inevitably ends only once the player runs out of lives from failing to do so a given number of times. The goal is to get the highest score possible. As the game progresses and the level increases, the speed of game elements increases, making the game more difficult.
 ![Space Hunt Gameplay Screenshot MarkedUp](https://user-images.githubusercontent.com/54511402/167519382-28087212-6dd0-45ca-b90f-3a07256bce16.png)  
