@@ -1,4 +1,4 @@
-# space_hunt
+# Space Hunt
 A Shoot-em-up Game run with the Pygame module
 
 ## Gameplay
@@ -8,17 +8,21 @@ The basic idea of the game is modeled after the famous arcade game "Space Invade
 
 ## Game Elements
 The game has a number of elements that interact with one another on collision
+
 ### 1. User Ship
 ![ship](https://user-images.githubusercontent.com/54511402/167516018-eea1c70b-c6c8-4bf8-b4b3-03d34f97e297.png)  
 The user ship can be moved left and right by pressing and holding down the left and right arrow keys respectively. This can be done to catch powerups and avoid alien bullets. The ship can fire bullets from it's current position by using the spacebar. These bullets move up the screen and eliminate aliens on collision with alien elements. The ship loses a life if it collides with an alien or an alien bullet.
+
 ### 2. Aliens
 ![alien](https://user-images.githubusercontent.com/54511402/167516065-8509ab59-777a-4801-8a5b-4939eb9c5e08.png)  
 Aliens come at the beginning of each level in fleets that always move in unison. The fleet always moves to the left or right, and when any alien collides with either side of the screen, the fleet changes direction from left to right (or vice-versa) and moves a set interval down the screen. If any alien either collides with the ship or reaches the bottom of the screen, the player loses a life. Aliens can also fire bullets, which take a ship life on collision with the ship.
+
 ### 3. Bullets
 - ***3a. Ship bullets***  
   Ship bullets are fired by the ship using the spacebar, and eliminate an alien and themself on collision with the alien. The amount of ship bullets that can exist on screen is limited unless the unlimited bullet powerup is in effect.  
 - ***3b. Alien Bullets***  
-  Aliens shoot bullets at random intervals of time that can take a ship life on collision with the ship. A random group of aliens of random number (limited by a game setting) are chosen to sometimes shoot bullets at set intervals of time.  
+  Aliens shoot bullets at random intervals of time that can take a ship life on collision with the ship. A random group of aliens of random number (limited by a game setting) are chosen to sometimes shoot bullets at set intervals of time.
+  
 ### 4. Powerups
 - ***4a. Powerups***  
   Powerups appear randomly on screen and fall down the screen, dissapearing off the bottom of the screen. On collision with the user ship they activate effects that give the user a boost.  
@@ -43,11 +47,9 @@ Aliens come at the beginning of each level in fleets that always move in unison.
     - **Double Points**  
     ![double_points](https://user-images.githubusercontent.com/54511402/167512892-b032a0b4-edd3-4ab2-9310-2fcb76ee6a67.png)  
     Causes the ship to earn double points per alien eliminated.  
-
-
-
 - ***4b. Powerup panel***  
   The powerup panel exists in the top left corner of the screen beneath the lives left panel. It shows which powerups are still active by printing the powerup's icon to the screen while it is active.
+
 ### 5. Scoreboard
 The scoreboard lists the current game score, the highscore, and the current game level.
   - a. **5a. Score**  
@@ -56,5 +58,8 @@ The scoreboard lists the current game score, the highscore, and the current game
   The highscore is listed on the top-center of the screen and changes at the end of a game if the current game score is greater than the high score. The high score is kept in a .json file to be maintained between game sessions.
   - c. **5c. Level**  
   The level is listed in the top-right corner of the screen beneath the current score, and increases by one every time an alien fleet is defeated.
+
 ### 6. Lives panel
 The lives panel is in the top-left corner of the screen. It represents the number of lives left by printing that number of ship icons, and is updated every time the player loses a life.
+
+
