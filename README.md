@@ -4,7 +4,7 @@ A Shoot-em-up Game run with the Pygame module
 ## Gameplay
 The basic idea of the game is modeled after the famous arcade game "Space Invaders", developed by Tomohiro Nishikado. The player controls a ship that moves and shoots bullets to defeat descending fleet of aliens and prevent them from reaching the ship or the bottom of the screen, gaining points for each alien defeated. It can also collide with powerups that fall down the screen and give temporary advantageous abilities to the user ship. The game inevitably ends only once the player runs out of lives from failing to do so a given number of times. The goal is to get the highest score possible. As the game progresses the speed of game elements increases, making the game more difficult.
 
-![Space Hunt Gameplay Screenshot](https://user-images.githubusercontent.com/54511402/167507357-ae505139-2a17-41d3-a9cc-440e4b559048.png)
+![Space Hunt Gameplay Screenshot MarkedUp](https://user-images.githubusercontent.com/54511402/167519382-28087212-6dd0-45ca-b90f-3a07256bce16.png)  
 
 ## Game Elements
 The game has a number of elements that interact with one another on collision
@@ -48,8 +48,8 @@ Aliens come at the beginning of each level in fleets that always move in unison.
 
 - ***Powerup panel***
   The powerup panel exists in the top left corner of the screen beneath the lives left panel. It shows which powerups are still active by printing the powerup's icon to the screen while it is active.
-### 5. Scoreboard
-  a. Score
-  b. Highscore
-  c. Level
+### 5. Scoreboard  
+  a. Score  
+  b. Highscore  
+  c. Level  
 ### 6. Lives panel
