@@ -43,7 +43,7 @@ class Settings():
         self.button_start_text = "START"
         # Scoreboard settings
         self.scoreboard_font_size = 40
-        self.scoreboard_text_color = (100, 200, 100)
+        self.scoreboard_text_color = (200, 50, 150)
         self.life_emblem_dimensions = (
             self.life_emblem_width, self.life_emblem_height) = (30, 50)
         # Powerup settings
