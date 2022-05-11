@@ -241,7 +241,6 @@ def check_powerup_collisions(ship, powerup_manager):
         ship, powerup_manager.new_powerup_group, True, pygame.sprite.collide_mask)
     for new_powerup in new_powerup_list:
         powerup_manager.add_powerup(new_powerup)
-        print(new_powerup.powerup_name)  # TEST!!!
 
 
 def check_dead_bullets(bullets, alien_bullets):
