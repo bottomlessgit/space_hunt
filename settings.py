@@ -13,14 +13,14 @@ class Settings():
         self.screen_dimensions = self.screen_width, self.screen_height = 1400, 800
         self.screen_color = (0, 0, 0)
         # Ship settings
-        self.ship_filename = "ship.bmp"
+        self.ship_filename = "images/ship.bmp"
         self.ship_dimensions = (self.ship_width, self.ship_height) = (60, 100)
         # Ship Bullet settings
         self.default_ship_bullet_color = (150, 0, 0)
         self.ship_bullet_dimensions = self.default_bullet_dimensions
         self.ship_bullet_color = self.default_ship_bullet_color
         # Alien settings
-        self.alien_filename = "alien.bmp"
+        self.alien_filename = "images/alien.bmp"
         self.alien_dimensions = (
             self.alien_width, self.alien_height) = (40, 40)
         self.alien_bullet_color = (0, 200, 150)
