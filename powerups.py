@@ -34,7 +34,7 @@ class Powerup(pygame.sprite.Sprite):
     def set_image(self):
         """Sets image based on the powerup's name string"""
         # Load image
-        self.image = pygame.image.load(self.powerup_name + ".bmp")
+        self.image = pygame.image.load("images/" + self.powerup_name + ".bmp")
         # Resize image based on settings
         self.image = pygame.transform.scale(
             self.image, self.settings.powerup_dimensions)
