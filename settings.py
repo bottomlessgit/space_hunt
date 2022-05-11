@@ -5,18 +5,18 @@ class Settings():
 
     # Screen settings
     def __init__(self):
-        """Default settings I should find a place for:"""
+        """Initialize settings object"""
+        # Default bullet dimensions
         self.default_bullet_dimensions = (
             self.bullet_width, self.bullet_height) = (4, 20)
-        self.default_ship_bullet_color = (150, 0, 0)
-
-        """Initialize settings object"""
+        # Screen settings
         self.screen_dimensions = self.screen_width, self.screen_height = 1400, 800
         self.screen_color = (0, 0, 0)
         # Ship settings
         self.ship_filename = "ship.bmp"
         self.ship_dimensions = (self.ship_width, self.ship_height) = (60, 100)
         # Ship Bullet settings
+        self.default_ship_bullet_color = (150, 0, 0)
         self.ship_bullet_dimensions = self.default_bullet_dimensions
         self.ship_bullet_color = self.default_ship_bullet_color
         # Alien settings
