@@ -75,6 +75,10 @@ The scoreboard lists the current game score, the highscore, and the current game
 The lives panel is in the top-left corner of the screen. It represents the number of lives left by printing that number of ship icons, and is updated every time the player loses a life.
 
 
+## Settings Manipulation
+The settings.py file contains all the settings for the game. Most of these control things like what image is used for a game element, the speed and color  of game elements, and the frequency of certain events. These settings are given very detailed and intuitive names so that anyone can change them at their pleasure. This primarily changes the difficulty and speed of the game, and does not change the mechanics of progress, collisions, or defeat. Have fun!
+
+
 ## Credits
 I both learnt python and specifically the basics of pygame from *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* by Eric Matthes and more specifically, while I started my own project from scratch, learnt a lot from the tutorial on creating an alien invaders game similar to my own. The text can be found for purchase at tbe nostarch publisher's website, https://nostarch.com/pythoncrashcourse2e.  
 Of course, this game closely mimics the original *Space Invaders*, the classic arcade game developed by Tomohiro Nishikado and released by the Taito corporation. If you'd like to learn more about it here is a link: https://www.britannica.com/topic/Space-Invaders.  
