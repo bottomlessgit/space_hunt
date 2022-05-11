@@ -75,7 +75,7 @@ The scoreboard lists the current game score, the highscore, and the current game
 The lives panel is in the top-left corner of the screen. It represents the number of lives left by printing that number of ship icons, and is updated every time the player loses a life.
 
 
-##Credits
+## Credits
 I both learnt python and specifically the basics of pygame from *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* by Eric Matthes and more specifically, while I started my own project from scratch, learnt a lot from the tutorial on creating an alien invaders game similar to my own. The text can be found for purchase at tbe nostarch publisher's website, https://nostarch.com/pythoncrashcourse2e.  
 Of course, this game closely mimics the original *Space Invaders*, the classic arcade game developed by Tomohiro Nishikado and released by the Taito corporation. If you'd like to learn more about it here is a link: https://www.britannica.com/topic/Space-Invaders.  
 Finally, since the game depends heavily on the python module, I'd like to thank Pete Shinners and the pygame developer community for creating the pygame libraries. I also learnt a great deal about pygame from the tutorials and documentation, which can be found at https://www.pygame.org/docs/.
