@@ -3,6 +3,12 @@ A Shoot-em-up Game run with the Pygame module
 
 
 ## How To Run
+Space Hunt is written in python 3, so being able to run python code is required. The only module used that is not in the Python Standard Library is the pygame module, a set of modules meant to assist in creating animations and handling collisions(and a number of other game-related functionalities). It's largely a wrapper for SDL(Simple DirectMedia Layer), and it is not unlikely that if you have a computer with which you can code in and run python, the pygame module will work with it.  
+To download the latest version of python, go to https://www.python.org/downloads/ and follow the instructions for your OS.  
+Your version of python will likely come with python's standard package installer, pip(package installer for python), but if it does not you can download it following the instructions at this link: https://pip.pypa.io/en/stable/installation/  
+Finally, if you have pip installed you should be able to use the command
+>python3 -m pip install -U pygame --user
+in your command line to install pygame, but if this does not work and you want more detailed instructions go to https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
 
 
 ## Gameplay
