@@ -3,13 +3,15 @@ A Shoot-em-up Game run with the Pygame module
 
 
 ## How To Run
+### Software Requirements
 Space Hunt is written in python 3, so being able to run python code is required. The only module used that is not in the Python Standard Library is the pygame module, a set of modules meant to assist in creating animations and handling collisions(and a number of other game-related functionalities). It's largely a wrapper for SDL(Simple DirectMedia Layer), and it is not unlikely that if you have a computer with which you can code in and run python, the pygame module will work with it.    
 To download the latest version of python, go to https://www.python.org/downloads/ and follow the instructions for your OS.  
 Your version of python will likely come with python's standard package installer, pip(package installer for python), but if it does not you can download it following the instructions at this link: https://pip.pypa.io/en/stable/installation/    
 Finally, if you have pip installed you should be able to use the command
-`python3 -m pip install -U pygame --user`
+`python3 -m pip install -U pygame`
 in your command line to install pygame, but if this does not work and you want more detailed instructions go to https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
-
+### Running the game
+The file containing the main "run_game" function that runs the entire game is "space_hunt.py". Once you have met the software requirements and have compiled the files in the project, all you need to do to run the space_hunt file. So navigating to the project directory in the command line and 
 
 ## Gameplay
 The basic idea of the game is modeled after the famous arcade game "Space Invaders", developed by Tomohiro Nishikado. The player controls a ship that moves and shoots bullets to defeat descending fleet of aliens and prevent them from reaching the ship or the bottom of the screen, gaining points for each alien defeated. It can also collide with powerups that fall down the screen and give temporary advantageous abilities to the user ship. The game inevitably ends only once the player runs out of lives from failing to do so a given number of times. The goal is to get the highest score possible. As the game progresses and the level increases, the speed of game elements increases, making the game more difficult.
