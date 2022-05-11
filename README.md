@@ -7,7 +7,7 @@ Space Hunt is written in python 3, so being able to run python code is required.
 To download the latest version of python, go to https://www.python.org/downloads/ and follow the instructions for your OS.  
 Your version of python will likely come with python's standard package installer, pip(package installer for python), but if it does not you can download it following the instructions at this link: https://pip.pypa.io/en/stable/installation/  
 Finally, if you have pip installed you should be able to use the command
-'python3 -m pip install -U pygame --user'
+`python3 -m pip install -U pygame --user`
 in your command line to install pygame, but if this does not work and you want more detailed instructions go to https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
 
 
