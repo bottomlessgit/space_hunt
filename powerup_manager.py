@@ -98,7 +98,6 @@ class PowerupManager():
         expired_list = []  # List of expired powerup keys
         for key, powerup in self.active_powerup_dict.items():
             if powerup.is_expired():
-                print("REMOVING: " + powerup.powerup_name)  # TEST!!!
                 powerup.deactivate_powerup()
                 expired_list.append(key)
 
