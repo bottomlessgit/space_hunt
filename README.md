@@ -11,7 +11,7 @@ Finally, if you have pip installed you should be able to use the command
 `python3 -m pip install -U pygame`
 in your command line to install pygame, but if this does not work and you want more detailed instructions go to https://www.pygame.org/wiki/GettingStarted#Pygame%20Installation
 ### Running the game
-The file containing the main "run_game" function that runs the entire game is "space_hunt.py". Once you have met the software requirements and have compiled the files in the project, all you need to do to run the space_hunt file. So navigating to the project directory in the command line and 
+The file containing the main "run_game" function that runs the entire game is "space_hunt.py". Once you have met the software requirements and have compiled the files in the project, all you need to do to run the space_hunt file. So navigating to the project directory in the command line and run `python3 space_hunt.py`. Once you do this the game window will show up. You can click the start button or press 'p' to begin, and exit the window by pressing 'q' or the standard exit window button in the top-left corner.
 
 ## Gameplay
 The basic idea of the game is modeled after the famous arcade game "Space Invaders", developed by Tomohiro Nishikado. The player controls a ship that moves and shoots bullets to defeat descending fleet of aliens and prevent them from reaching the ship or the bottom of the screen, gaining points for each alien defeated. It can also collide with powerups that fall down the screen and give temporary advantageous abilities to the user ship. The game inevitably ends only once the player runs out of lives from failing to do so a given number of times. The goal is to get the highest score possible. As the game progresses and the level increases, the speed of game elements increases, making the game more difficult.
@@ -75,6 +75,9 @@ The scoreboard lists the current game score, the highscore, and the current game
 The lives panel is in the top-left corner of the screen. It represents the number of lives left by printing that number of ship icons, and is updated every time the player loses a life.
 
 
-##
+##Credits
+I both learnt python and specifically the basics of pygame from *Python Crash Course: A Hands-On, Project-Based Introduction to Programming* by Eric Matthes and more specifically, while I started my own project from scratch, learnt a lot from the tutorial on creating an alien invaders game similar to my own. The text can be found for purchase at tbe nostarch publisher's website, https://nostarch.com/pythoncrashcourse2e.  
+Of course, this game closely mimics the original *Space Invaders*, the classic arcade game developed by Tomohiro Nishikado and released by the Taito corporation. If you'd like to learn more about it here is a link: https://www.britannica.com/topic/Space-Invaders.  
+Finally, since the game depends heavily on the python module, I'd like to thank Pete Shinners and the pygame developer community for creating the pygame libraries. I also learnt a great deal about pygame from the tutorials and documentation, which can be found at https://www.pygame.org/docs/.
 
 
