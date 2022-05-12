@@ -1,5 +1,6 @@
 # Space Hunt
-A Shoot-em-up Game run with the Pygame module
+A Shoot-em-up Game run with the Pygame module  
+![](https://github.com/bottomlessgit/space_hunt/blob/main/space_hunt_example.gif)
 
 
 ## How To Run
